@@ -26,3 +26,5 @@ provider-user:
 logging:
   level:
     com.cloud.provider.movie.feign.AccountFeignClient: DEBUG # 将Feign接口的日志级别设置成DEBUG，因为Feign的Logger.Level只对DEBUG作出响应。
+    root: info
+    org.springframework.web.servlet.DispatcherServlet: debug
