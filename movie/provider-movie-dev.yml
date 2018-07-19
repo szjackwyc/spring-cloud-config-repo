@@ -1,5 +1,5 @@
 #服务配置
-profile: dev
+profile: test
 server:
   port: 8989
   session-timeout: 30  
